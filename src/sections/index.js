@@ -1,5 +1,4 @@
 import Hero from './Hero'
-import Nav from './Nav'
 import PopularProducts from './PopularProducts'
 import SuperQuality from './SuperQuality'
 import Services from './Services'
@@ -18,6 +17,5 @@ export {
     CustomerReviews,
     Subscribe,
     Footer,
-    Nav
 }
 
