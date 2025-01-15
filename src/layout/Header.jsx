@@ -1,7 +1,7 @@
 function Header() {
     return (
         <>
-            <div className="p-10 bg-blue-500 text-white text-center">
+            <div className="p-10 bg-blue-300 flex text-white text-center">
                 
                     <li>Home</li>
                     <li>About</li>
