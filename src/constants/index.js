@@ -25,6 +25,21 @@ export const shoes = [
     },
 ];
 
+// export const cars = [
+//     {
+//         thumbnail: thumbnailCar1,
+//         bigCar: bigCar1,
+//     },
+//     {
+//         thumbnail: thumbnailCar2,
+//         bigCar: bigCar2,
+//     },
+//     {
+//         thumbnail: thumbnailCar3,
+//         bigCar: bigCar3,
+//     },
+// ];
+
 export const statistics = [
     { value: '1k+', label: 'Brands' },
     { value: '500+', label: 'Shops' },
