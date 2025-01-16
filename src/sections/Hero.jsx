@@ -19,11 +19,12 @@ const Hero = () => {
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px]
         max-sm:leading-[82] font-bold
         '>
-          <span className='xl:bg-white'>The New Arrivals</span>
+          <span className='xl:bg-white xl:whitespace-nowrap relative z-10 pr-10'>The New Arrivals</span>
           <br />
-          <span>Nike</span>
+          <span className='text-coral-red inline-block mt-3'>Manga</span> Cars
         </h1>
-          <p>Discover stylish Nike arrivals, quality comfort,
+          <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6
+          mb-14 sm:max-w-sm'>Discover stylish Nike arrivals, quality comfort,
             and innovation for your active life.
           </p>
           <Button label="Shop now"
@@ -34,8 +35,8 @@ const Hero = () => {
           '>
             {statistics.map((stat)=> (
               <div key={stat.label}>
-                <p>{stat.value}</p>  
-                <p>{stat.label}</p>  
+                <p className='text-4xl font-palanquin font-bold'>{stat.value}</p>  
+                <p className='leading-7 font-montserrat text-slate-gray'>{stat.label}</p>  
               </div>
             ))}
           </div>
