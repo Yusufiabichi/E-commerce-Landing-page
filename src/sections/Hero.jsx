@@ -1,7 +1,7 @@
 import Button from '../components/Button'
 import { arrowRight } from '../assets/icons'
 import { statistics } from '../constants'
-
+import { bigCar1 } from '../assets/images'
 
 const Hero = () => {
   return (
@@ -24,7 +24,7 @@ const Hero = () => {
           <span className='text-coral-red inline-block mt-3'>Manga</span> Cars
         </h1>
           <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6
-          mb-14 sm:max-w-sm'>Discover stylish Nike arrivals, quality comfort,
+          mb-14 sm:max-w-sm'>Discover stylish Manga car arrivals, quality comfort,
             and innovation for your active life.
           </p>
           <Button label="Shop now"
@@ -40,6 +40,14 @@ const Hero = () => {
               </div>
             ))}
           </div>
+      </div>
+
+      <div>
+        <img src={bigCar1} alt="Shoe collection"
+        width={610}
+        height={500}
+        className='object-contain
+        relative z-10' />
       </div>
 
     </section>
