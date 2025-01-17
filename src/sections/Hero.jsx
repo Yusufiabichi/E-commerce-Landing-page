@@ -16,7 +16,7 @@ const Hero = () => {
     className="w-full flex xl:flex-row flex-col
     justify-center min-h-screen
     gap-10 max-container 
-    border-2 p-2"
+    p-2"
     >
       <div className="relative xl:w-2/5 flex-col 
       justify-center items-start w-full max-xl:padding-x 
