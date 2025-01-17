@@ -9,6 +9,8 @@ const ServiceCard = ({ imgURL, label, subtext }) => {
             width={24}
             height={24} />
         </div>
+        <h3>{label}</h3>
+        <p>{subtext}</p>
     </div>
   )
 }
