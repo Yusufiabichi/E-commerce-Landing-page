@@ -11,11 +11,12 @@ const Subscribe = () => {
         </span> & Newsletters
       </h3>
 
-      <div className="">
+      <div className="lg-max-w-[40%] w-full flex items-center max-sm:flex-col gap-5p-2.5
+      sm:border sm:border-slate-gray">
         <input type="text"
         placeholder="Enter Your Email to subscribe"
         className="input" />
-        <div>
+        <div className="flex max-sm:justify-end items-center max-sm:w-full">
           <Button label="Sign Up"
           fullwidth/>
         </div>
