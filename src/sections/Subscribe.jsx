@@ -16,7 +16,8 @@ const Subscribe = () => {
         placeholder="Enter Your Email to subscribe"
         className="input" />
         <div>
-          <Button label="Sign Up"/>
+          <Button label="Sign Up"
+          fullwidth/>
         </div>
       </div>
     </section>

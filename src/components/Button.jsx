@@ -8,7 +8,7 @@ const Button = ({ label, iconURL, backgroundColor, textColor, borderColor }) => 
         ? `${backgroundColor} 
         ${textColor} ${borderColor}`
         : 'bg-coral-red text-white border-coral-red'}
-         rounded-full`}>
+         rounded-full w-full`}>
         {label}
         {iconURL && <img 
         src={iconURL} alt="arrow right icon" 
