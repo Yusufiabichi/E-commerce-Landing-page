@@ -65,6 +65,8 @@ const Footer = () => {
           className="rounded-full m-0" />
           <p>Copyright. All right Reserved.</p>
         </div>
+        <p className="font-montserrat
+        cursor-pointer mt-2">Terms & Conditions</p>
       </div>
     </footer>
   )
