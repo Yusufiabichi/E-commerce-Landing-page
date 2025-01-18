@@ -34,7 +34,16 @@ const Footer = () => {
         <div className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
             {footerLinks.map((section) => (
               <div key={section}>
-                
+                <h4 className="text-white">
+                  {section.title}
+                </h4>
+                <ul>
+                  {section.links.map((link) => (
+                    <li>
+                      <a href="">{link.name}</a>
+                    </li>
+                  ))}
+                </ul>
               </div>
             ))}
         </div>
