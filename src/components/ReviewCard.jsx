@@ -1,3 +1,4 @@
+import { star } from "../assets/icons"
 
 
 
@@ -13,8 +14,10 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
             alt="star"
             width={24}
             height={24}
-            className="" />
+            className="object-contain m-0" />
+            <p>({rating})</p>
         </div>
+        <p>{customerName}</p>
     </div>
   )
 }

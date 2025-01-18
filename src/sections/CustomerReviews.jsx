@@ -1,4 +1,5 @@
 import ReviewCard from "../components/ReviewCard"
+import { reviews } from "../constants"
 const CustomerReviews = () => {
   return (
     <section className="max-container">
