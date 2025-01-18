@@ -6,7 +6,7 @@ const Subscribe = () => {
     items-center max-lg:flex-col gap-10" id="contact-us">
 
       <h3 className="text-4xl leading-[68px] lg:max-w-md font-palanquin font-bold">
-        Sign Up Form
+        Subscribe For
         <span className="text-coral-red"> Updates
         </span> & Newsletters
       </h3>
@@ -17,7 +17,7 @@ const Subscribe = () => {
         placeholder="Enter Your Email to subscribe"
         className="input" />
         <div className="flex max-sm:justify-end items-center max-sm:w-full">
-          <Button label="Sign Up"
+          <Button label="Subscribe"
           fullwidth/>
         </div>
       </div>
