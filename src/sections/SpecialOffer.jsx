@@ -17,9 +17,8 @@ const SpecialOffers = () => {
 
         <h2 className='font-palanquin text-4xl capitalize font-bold
         lg:max-w-lg'>
-          We Provide you
-          <span className='text-coral-red'> Super </span>
-          <span className='text-coral-red'>Quality </span> Cars
+          <span className='text-coral-red'> Special </span>
+          <span className=''>Offer </span>
         </h2>
           <p className='mt-4 lg:max-w-lg info-text
           '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -29,9 +28,15 @@ const SpecialOffers = () => {
           </p>
           <p className='mt-4 lg:max-w-lg info-text'>Discover stylish Manga car arrivals, quality comfort,
           and innovation for your active life.</p>
-          <div className='mt-11'>
-            <Button label="View Details"
+
+
+          <div className='mt-11 flex flex-wrap gap-4'>
+            <Button label="Buy Now!"
             iconURL={arrowRight}/>
+            <Button label="Learn More"
+            backgroundColor="bg-white"
+            borderColor="border-slate-gray"
+            textColor="text-slate-gray"/>
 
           </div>
 
