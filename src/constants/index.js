@@ -42,8 +42,8 @@ export const shoes = [
 
 export const statistics = [
     { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '500+', label: 'Cars Available' },
+    { value: '10k+', label: 'Customers Satisfied' },
 ];
 
 export const products = [
@@ -54,8 +54,8 @@ export const products = [
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "Marcedes Benz GLK",
+        price: "$21,000.20",
     },
     {
         imgURL: shoe6,
