@@ -49,8 +49,8 @@ export const statistics = [
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "BMW 3 Seiries",
+        price: "<p></p>200.20",
     },
     {
         imgURL: shoe5,
