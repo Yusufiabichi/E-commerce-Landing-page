@@ -42,29 +42,29 @@ export const shoes = [
 
 export const statistics = [
     { value: '1k+', label: 'Brands' },
-    { value: '500+', label: 'Shops' },
-    { value: '250k+', label: 'Customers' },
+    { value: '500+', label: 'Cars Available' },
+    { value: '10k+', label: 'Customers Satisfied' },
 ];
 
 export const products = [
     {
         imgURL: shoe4,
-        name: "Nike Air Jordan-01",
-        price: "$200.20",
+        name: "BMW 3 Seiries",
+        price: "<p></p>200.20",
     },
     {
         imgURL: shoe5,
-        name: "Nike Air Jordan-10",
-        price: "$210.20",
+        name: "Marcedes Benz GLK",
+        price: "$21,000.20",
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        name: "Audi Y17 New",
         price: "$220.20",
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        name: "BMW S7 Brand new",
         price: "$230.20",
     },
 ];

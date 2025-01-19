@@ -33,7 +33,7 @@ const Hero = () => {
           mb-14 sm:max-w-sm'>Discover stylish Manga car arrivals, quality comfort,
             and innovation for your active life.
           </p>
-          <Button label="Shop now"
+          <Button label="Buy now"
           iconURL={arrowRight}/>
 
           <div className='flex justify-start items-start
