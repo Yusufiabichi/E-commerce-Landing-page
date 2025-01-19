@@ -64,7 +64,7 @@ export const products = [
     },
     {
         imgURL: shoe7,
-        name: "Nike Air Jordan-001",
+        name: "BMW S7 Brand new",
         price: "$230.20",
     },
 ];
