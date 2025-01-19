@@ -59,7 +59,7 @@ export const products = [
     },
     {
         imgURL: shoe6,
-        name: "Nike Air Jordan-100",
+        name: "Audi Y17 New",
         price: "$220.20",
     },
     {
