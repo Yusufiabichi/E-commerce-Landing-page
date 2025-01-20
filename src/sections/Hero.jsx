@@ -21,7 +21,7 @@ const Hero = () => {
       justify-center items-start w-full max-xl:padding-x 
       pt-28
       ">
-        <p className='text-xl font-montserrat text-coral-red'>Our Summar Collection</p>
+        <p className='text-xl font-montserrat mt-5 text-coral-red'>Our Summar Collection</p>
         <h1 className='mt-10 font-palanquin text-8xl max-sm:text-[72px]
         max-sm:leading-[82px] font-bold
         '>
