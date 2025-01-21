@@ -4,15 +4,15 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
   {
-    src: 'https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    src: 'https://unsplash.com/photos/apple-macbook-beside-computer-mouse-on-table-9l_326FISzk',
     text: 'Slide 1: Captivating Beauty',
   },
   {
-    src: 'https://via.placeholder.com/800x400?text=Image+2',
+    src: 'https://unsplash.com/photos/gray-and-black-laptop-computer-on-surface-Im7lZjxeLhg',
     text: 'Slide 2: Unparalleled Elegance',
   },
   {
-    src: 'https://via.placeholder.com/800x400?text=Image+3',
+    src: 'https://unsplash.com/photos/computer-monitor-31l-8hY1mt4',
     text: 'Slide 3: Infinite Possibilities',
   },
 ];
