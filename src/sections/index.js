@@ -6,6 +6,7 @@ import Footer from './Footer'
 import SpecialOffer from './SpecialOffer'
 import CustomerReviews from './CustomerReviews'
 import Subscribe from './Subscribe'
+import ImageSlider from './ImageSlider'
 
 
 export {
@@ -17,5 +18,6 @@ export {
     CustomerReviews,
     Subscribe,
     Footer,
+    ImageSlider
 }
 
