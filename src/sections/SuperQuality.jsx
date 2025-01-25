@@ -12,7 +12,7 @@ const SuperQuality = () => {
         lg:max-w-lg'>
           We Provide you
           <span className='text-coral-red'> Super </span>
-          <span className='text-coral-red'>Quality </span> Cars
+          <span className='text-coral-red'>Quality </span> Shoes
         </h2>
           <p className='mt-4 lg:max-w-lg info-text
           '>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
@@ -20,7 +20,7 @@ const SuperQuality = () => {
           veritatis corrupti ullam iusto mollitia placeat nihil reiciendis 
           doloremque aliquid! Quibusdam, aliquam.
           </p>
-          <p className='mt-4 lg:max-w-lg info-text'>Discover stylish Manga car arrivals, quality comfort,
+          <p className='mt-4 lg:max-w-lg info-text'>Discover stylish Nike Shoes arrivals, quality comfort,
           and innovation for your active life.</p>
           <div className='mt-11'>
             <Button label="View Details"
