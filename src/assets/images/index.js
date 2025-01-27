@@ -6,8 +6,8 @@ import bigCar1 from './big-car1.png'
 import bigCar2 from './big-car2.png'
 import bigCar3 from './big-car3.png'
 
-import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
+import customer3 from './customer3.jpg'
+import customer4 from './customer4.jpg'
 
 import footerLogo from './footer-logo.svg'
 import headerLogo from './header-logo.svg'
@@ -40,8 +40,8 @@ export {
     bigCar2,
     bigCar3,
 
-    customer1,
-    customer2,
+    customer3,
+    customer4,
 
     footerLogo,
     headerLogo,
