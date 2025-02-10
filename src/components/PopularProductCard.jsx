@@ -4,7 +4,7 @@ const PopularProductCard = ( { imgURL, name, price }) => {
   return (
     <div className="flex fle-1 flex-col w-full max-sm:w-full">
         <img src={imgURL} alt={name}
-        className="w-[280px] h-[280px] object-cover" />
+        className="w-[280px] h-[280px] rounded-3xl object-cover" />
         <div className="mt-8 flex justify-start gap-2.5">
             <img src={star} alt="rating"
             width={24}

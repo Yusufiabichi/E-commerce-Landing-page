@@ -1,13 +1,13 @@
 
-const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
+const CarCard = ({ imgURL, changeBigCarImage, bigCarImg }) => {
     const handleClick = () => {
-        if(bigShoeImg !== imgURL.bigShoe){
-            changeBigShoeImage(imgURL.bigShoe)
+        if(bigCarImg !== imgURL.bigCar){
+            changeBigCarImage(imgURL.bigCar)
         }
     }
   return (
     <div className={`border-2 rounded-xl
-      ${bigShoeImg === imgURL.bigShoe ? 'border-coral-red'
+      ${bigCarImg === imgURL.bigCar ? 'border-coral-red'
         : 'border-transparent'
       }  cursor-pointer max-sm:flex-1
     `}
@@ -27,4 +27,4 @@ const ShoeCard = ({ imgURL, changeBigShoeImage, bigShoeImg }) => {
   )
 }
 
-export default ShoeCard
+export default CarCard

@@ -1,6 +1,6 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, 
-    shoe7, car4, car5, car6, car7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigCar1, bigCar2, bigCar3, customer1, customer2, shoe4, shoe5, shoe6, 
+    shoe7, car4, car5, car6, car7, thumbnailCar1, thumbnailCar2, thumbnailCar3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -10,35 +10,35 @@ export const navLinks = [
     { href: "#Login/Explore", label: "Login/Explore" },
 ];
 
-export const shoes = [
-    {
-        thumbnail: thumbnailShoe1,
-        bigShoe: bigShoe1,
-    },
-    {
-        thumbnail: thumbnailShoe2,
-        bigShoe: bigShoe2,
-    },
-    {
-        thumbnail: thumbnailShoe3,
-        bigShoe: bigShoe3,
-    },
-];
-
-// export const cars = [
+// export const shoes = [
 //     {
-//         thumbnail: thumbnailCar1,
-//         bigCar: bigCar1,
+//         thumbnail: thumbnailShoe1,
+//         bigShoe: bigShoe1,
 //     },
 //     {
-//         thumbnail: thumbnailCar2,
-//         bigCar: bigCar2,
+//         thumbnail: thumbnailShoe2,
+//         bigShoe: bigShoe2,
 //     },
 //     {
-//         thumbnail: thumbnailCar3,
-//         bigCar: bigCar3,
+//         thumbnail: thumbnailShoe3,
+//         bigShoe: bigShoe3,
 //     },
 // ];
+
+export const cars = [
+    {
+        thumbnail: thumbnailCar1,
+        bigCar: bigCar1,
+    },
+    {
+        thumbnail: thumbnailCar2,
+        bigCar: bigCar2,
+    },
+    {
+        thumbnail: thumbnailCar3,
+        bigCar: bigCar3,
+    },
+];
 
 export const statistics = [
     { value: '1k+', label: 'Brands' },
@@ -48,22 +48,22 @@ export const statistics = [
 
 export const products = [
     {
-        imgURL: shoe4,
+        imgURL: car4,
         name: "BMW 3 Seiries",
         price: "N 200.20",
     },
     {
-        imgURL: shoe5,
+        imgURL: car5,
         name: "Marcedes Benz GLK",
         price: "$21,000.20",
     },
     {
-        imgURL: shoe6,
+        imgURL: car6,
         name: "Audi Y17 New",
         price: "$220.20",
     },
     {
-        imgURL: shoe7,
+        imgURL: car7,
         name: "BMW S7 Brand new",
         price: "$230.20",
     },
@@ -133,6 +133,19 @@ export const footerLinks = [
         ],
     },
 ];
+
+// [
+//     {
+//         post: {
+//             "message": "post title",
+//             "likes": 2,
+//             "comments": [
+//                 { "comments-message": "users comments" },
+//                 { "likes": 5 }
+//             ]
+//         }
+//     }
+// ]
 
 export const socialMedia = [
     { src: facebook, alt: "facebook logo" },

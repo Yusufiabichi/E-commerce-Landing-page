@@ -20,16 +20,16 @@ import shoe6 from './shoe6.svg'
 import shoe7 from './shoe7.svg'
 import shoe8 from './shoe8.svg'
 
-import car4 from './car4.png'
-import car5 from './car5.png'
-import car6 from './car6.png'
-import car7 from './car7.png'
-import car8 from './car8.png'
+import car4 from './car4.svg'
+import car5 from './car5.svg'
+import car6 from './car6.svg'
+import car7 from './car7.svg'
+// import car8 from './car8.svg'
 
 import thumbnailBackground from './thumbnail-background.svg'
-import thumbnailShoe1 from './thumbnail-shoe1.svg'
-import thumbnailShoe2 from './thumbnail-shoe2.svg'
-import thumbnailShoe3 from './thumbnail-shoe3.svg'
+import thumbnailCar1 from './thumbnail-car1.svg'
+import thumbnailCar2 from './thumbnail-car2.svg'
+import thumbnailCar3 from './thumbnail-car3.svg'
 
 export {
     bigShoe1,
@@ -56,10 +56,10 @@ export {
     car5,
     car6,
     car7,
-    car8,
+    // car8,
 
     thumbnailBackground,
-    thumbnailShoe1,
-    thumbnailShoe2,
-    thumbnailShoe3
+    thumbnailCar1,
+    thumbnailCar2,
+    thumbnailCar3
 }
